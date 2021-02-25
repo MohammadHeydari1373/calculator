@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Calculator
+{
+    class Calculator : ICalculator
+    {
+        public int Minus(int number1, int number2)
+        {
+            return number1 - number2;
+        }
+
+        public int Plus(int number1, int number2)
+        {
+            return number1 + number2;
+        }
+
+        public int Divide(int number1, int number2)
+        {
+            return number1 / number2;
+        }
+
+        public int Multiple(int number1, int number2)
+        {
+            return number1 * number2;
+        }
+    }
+}
